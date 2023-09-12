@@ -39,6 +39,16 @@ export const ButtonBig: React.FC<Props> = ({ children, className = '', ...rest }
     </button>
   );
 };
+export const ButtonRound: React.FC<Props> = ({ children, className = '', ...rest }) => {
+    return (
+      <button
+      className={ `w-40 pt-1 pb-1 pr-2 text-base text-center  text-cyan-500 font-semibold rounded-2xl border  hover:text-white hover:bg-cyan-500 hover:border-transparent focus:outline-none focus:ring-1 focus:ring-cyan-600 focus:ring-offset-1 ${className}`}
+      {...rest}
+      >
+        {children}
+      </button>
+    );
+  };
 ButtonSmall.defaultProps ={
     children: "Click Me"
 }
