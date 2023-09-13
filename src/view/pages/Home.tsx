@@ -1,5 +1,14 @@
+
+import { Modal} from "../../components/Modal"
+// import { Input } from "../../components/Input";
 const Home = () => {
-	return <div>Home</div>;
+	return <div>
+	
+
+    <Modal className="">
+	
+	</Modal>
+	</div>;
 };
 
 export default Home;
