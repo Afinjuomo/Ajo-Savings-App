@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* In your CSS */
+.font-bodoni-moda {
+  font-family: 'Bodoni Moda', sans-serif;
+}
