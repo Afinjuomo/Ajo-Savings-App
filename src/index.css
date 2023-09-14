@@ -2,23 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *,
-*::after,
-*::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: inherit;
-}
 
-body,
-#app {
-	box-sizing: border-box;
-}
 
-html,
-body,
-#app,
-#app > div {
-	height: 100%;
-	width: 100%;
-} */
+
+/* In your CSS */
+.font-bodoni-moda {
+  font-family: 'Bodoni Moda', sans-serif;
+}

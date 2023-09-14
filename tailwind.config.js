@@ -5,6 +5,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'bodoni-moda': ['"Bodoni Moda"', 'sans-serif'],
+      },
+    
       Color:{
         primary: "#088AB2"
       },
